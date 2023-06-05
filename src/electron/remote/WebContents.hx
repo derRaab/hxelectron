@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/web-contents
 **/
-@:jsRequire("electron", "remote.WebContents") extern class WebContents extends js.node.events.EventEmitter<electron.remote.WebContents> {
+@:jsRequire("@electron/remote", "WebContents") extern class WebContents extends js.node.events.EventEmitter<electron.remote.WebContents> {
 	/**
 		An array of all `WebContents` instances. This will contain web contents for all windows, webviews, opened devtools, and devtools extension background pages.
 	**/

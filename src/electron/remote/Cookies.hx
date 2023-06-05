@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/cookies
 **/
-@:jsRequire("electron", "remote.Cookies") extern class Cookies extends js.node.events.EventEmitter<electron.remote.Cookies> {
+@:jsRequire("@electron/remote", "Cookies") extern class Cookies extends js.node.events.EventEmitter<electron.remote.Cookies> {
 	/**
 		A promise which resolves an array of cookie objects.
 		

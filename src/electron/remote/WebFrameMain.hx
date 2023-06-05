@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/web-frame-main
 **/
-@:jsRequire("electron", "remote.WebFrameMain") extern class WebFrameMain extends js.node.events.EventEmitter<electron.remote.WebFrameMain> {
+@:jsRequire("@electron/remote", "WebFrameMain") extern class WebFrameMain extends js.node.events.EventEmitter<electron.remote.WebFrameMain> {
 	/**
 		A frame with the given process and routing IDs, or `undefined` if there is no WebFrameMain associated with the given IDs.
 	**/

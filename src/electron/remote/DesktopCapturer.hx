@@ -61,7 +61,7 @@ package electron.remote;
 	To capture both audio and video from the entire desktop the constraints passed to `navigator.mediaDevices.getUserMedia` must include `chromeMediaSource: 'desktop'`, for both `audio` and `video`, but should not include a `chromeMediaSourceId` constraint.
 	@see https://electronjs.org/docs/api/desktop-capturer
 **/
-@:jsRequire("electron", "remote.desktopCapturer") extern class DesktopCapturer extends js.node.events.EventEmitter<electron.remote.DesktopCapturer> {
+@:jsRequire("@electron/remote", "desktopCapturer") extern class DesktopCapturer extends js.node.events.EventEmitter<electron.remote.DesktopCapturer> {
 	/**
 		Resolves with an array of `DesktopCapturerSource` objects, each `DesktopCapturerSource` represents a screen or an individual window that can be captured.
 		

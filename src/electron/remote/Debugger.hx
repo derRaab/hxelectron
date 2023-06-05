@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/debugger
 **/
-@:jsRequire("electron", "remote.Debugger") extern class Debugger extends js.node.events.EventEmitter<electron.remote.Debugger> {
+@:jsRequire("@electron/remote", "Debugger") extern class Debugger extends js.node.events.EventEmitter<electron.remote.Debugger> {
 	/**
 		Attaches the debugger to the `webContents`.
 	**/

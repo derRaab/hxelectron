@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/incoming-message
 **/
-@:jsRequire("electron", "remote.IncomingMessage") extern class IncomingMessage extends js.node.events.EventEmitter<electron.remote.IncomingMessage> {
+@:jsRequire("@electron/remote", "IncomingMessage") extern class IncomingMessage extends js.node.events.EventEmitter<electron.remote.IncomingMessage> {
 	/**
 		An `Integer` indicating the HTTP response status code.
 	**/

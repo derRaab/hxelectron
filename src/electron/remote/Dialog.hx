@@ -7,7 +7,7 @@ package electron.remote;
 	An example of showing a dialog to select multiple files:
 	@see https://electronjs.org/docs/api/dialog
 **/
-@:jsRequire("electron", "remote.dialog") extern class Dialog extends js.node.events.EventEmitter<electron.remote.Dialog> {
+@:jsRequire("@electron/remote", "dialog") extern class Dialog extends js.node.events.EventEmitter<electron.remote.Dialog> {
 	/**
 		the file paths chosen by the user; if the dialog is cancelled it returns `undefined`.
 		

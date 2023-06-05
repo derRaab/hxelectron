@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/dock
 **/
-@:jsRequire("electron", "remote.Dock") extern class Dock extends js.node.events.EventEmitter<electron.remote.Dock> {
+@:jsRequire("@electron/remote", "Dock") extern class Dock extends js.node.events.EventEmitter<electron.remote.Dock> {
 	/**
 		an ID representing the request.
 		

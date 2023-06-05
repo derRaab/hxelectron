@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main<br /> _This class is not exported from the `'electron'` module. It is only available as a return value of other methods in the Electron API._
 	@see https://electronjs.org/docs/api/touch-bar-slider
 **/
-@:jsRequire("electron", "remote.TouchBarSlider") extern class TouchBarSlider extends js.node.events.EventEmitter<electron.remote.TouchBarSlider> {
+@:jsRequire("@electron/remote", "TouchBarSlider") extern class TouchBarSlider extends js.node.events.EventEmitter<electron.remote.TouchBarSlider> {
 	/**
 		A `string` representing the slider's current text. Changing this value immediately updates the slider in the touch bar.
 	**/

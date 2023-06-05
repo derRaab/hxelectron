@@ -11,7 +11,7 @@ package electron.remote;
 	Process: Main
 	@see https://electronjs.org/docs/api/share-menu
 **/
-@:jsRequire("electron", "remote.ShareMenu") extern class ShareMenu extends js.node.events.EventEmitter<electron.remote.ShareMenu> {
+@:jsRequire("@electron/remote", "ShareMenu") extern class ShareMenu extends js.node.events.EventEmitter<electron.remote.ShareMenu> {
 	function new(sharingItem:electron.SharingItem):Void;
 	/**
 		Pops up this menu as a context menu in the `BrowserWindow`.

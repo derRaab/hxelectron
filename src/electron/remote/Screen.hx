@@ -26,7 +26,7 @@ package electron.remote;
 	Another example of creating a window in the external display:
 	@see https://electronjs.org/docs/api/screen
 **/
-@:native('require(\"electron\").remote.screen') extern class Screen extends js.node.events.EventEmitter<electron.remote.Screen> {
+@:native('require(\"@electron/remote\").screen') extern class Screen extends js.node.events.EventEmitter<electron.remote.Screen> {
 	/**
 		The current absolute position of the mouse pointer.
 		

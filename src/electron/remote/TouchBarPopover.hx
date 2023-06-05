@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main<br /> _This class is not exported from the `'electron'` module. It is only available as a return value of other methods in the Electron API._
 	@see https://electronjs.org/docs/api/touch-bar-popover
 **/
-@:jsRequire("electron", "remote.TouchBarPopover") extern class TouchBarPopover extends js.node.events.EventEmitter<electron.remote.TouchBarPopover> {
+@:jsRequire("@electron/remote", "TouchBarPopover") extern class TouchBarPopover extends js.node.events.EventEmitter<electron.remote.TouchBarPopover> {
 	/**
 		A `string` representing the popover's current button text. Changing this value immediately updates the popover in the touch bar.
 	**/

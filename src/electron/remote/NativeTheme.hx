@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main
 	@see https://electronjs.org/docs/api/native-theme
 **/
-@:jsRequire("electron", "remote.nativeTheme") extern class NativeTheme extends js.node.events.EventEmitter<electron.remote.NativeTheme> {
+@:jsRequire("@electron/remote", "nativeTheme") extern class NativeTheme extends js.node.events.EventEmitter<electron.remote.NativeTheme> {
 	/**
 		A `boolean` for if the OS / Chromium currently has a dark mode enabled or is being instructed to show a dark-style UI.  If you want to modify this value you should use `themeSource` below.
 	**/

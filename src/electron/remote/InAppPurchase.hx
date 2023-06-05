@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main
 	@see https://electronjs.org/docs/api/in-app-purchase
 **/
-@:jsRequire("electron", "remote.inAppPurchase") extern class InAppPurchase extends js.node.events.EventEmitter<electron.remote.InAppPurchase> {
+@:jsRequire("@electron/remote", "inAppPurchase") extern class InAppPurchase extends js.node.events.EventEmitter<electron.remote.InAppPurchase> {
 	/**
 		Returns `true` if the product is valid and added to the payment queue.
 		

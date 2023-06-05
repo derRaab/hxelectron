@@ -9,7 +9,7 @@ package electron.remote;
 	Note that on Mac, access to the system Keychain is required and these calls can block the current thread to collect user input. The same is true for Linux, if a password management tool is available.
 	@see https://electronjs.org/docs/api/safe-storage
 **/
-@:jsRequire("electron", "remote.safeStorage") extern class SafeStorage extends js.node.events.EventEmitter<electron.remote.SafeStorage> {
+@:jsRequire("@electron/remote", "safeStorage") extern class SafeStorage extends js.node.events.EventEmitter<electron.remote.SafeStorage> {
 	/**
 		Whether encryption is available.
 		

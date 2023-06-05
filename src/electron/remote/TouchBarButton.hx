@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main<br /> _This class is not exported from the `'electron'` module. It is only available as a return value of other methods in the Electron API._
 	@see https://electronjs.org/docs/api/touch-bar-button
 **/
-@:jsRequire("electron", "remote.TouchBarButton") extern class TouchBarButton extends js.node.events.EventEmitter<electron.remote.TouchBarButton> {
+@:jsRequire("@electron/remote", "TouchBarButton") extern class TouchBarButton extends js.node.events.EventEmitter<electron.remote.TouchBarButton> {
 	/**
 		A `string` representing the description of the button to be read by a screen reader. Will only be read by screen readers if no label is set.
 	**/

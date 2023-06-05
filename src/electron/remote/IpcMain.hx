@@ -21,7 +21,7 @@ package electron.remote;
 	* To send an asynchronous message back to the sender, you can use `event.reply(...)`.  This helper method will automatically handle messages coming from frames that aren't the main frame (e.g. iframes) whereas `event.sender.send(...)` will always send to the main frame.
 	@see https://electronjs.org/docs/api/ipc-main
 **/
-@:jsRequire("electron", "remote.ipcMain") extern class IpcMain extends js.node.events.EventEmitter<electron.remote.IpcMain> {
+@:jsRequire("@electron/remote", "ipcMain") extern class IpcMain extends js.node.events.EventEmitter<electron.remote.IpcMain> {
 	/**
 		Listens to `channel`, when a new message arrives `listener` would be called with `listener(event, args...)`.
 	**/

@@ -29,7 +29,7 @@ package electron.remote;
 	Returns `boolean` - Whether or not desktop notifications are supported on the current system
 	@see https://electronjs.org/docs/api/notification
 **/
-@:jsRequire("electron", "remote.Notification") extern class Notification extends js.node.events.EventEmitter<electron.remote.Notification> {
+@:jsRequire("@electron/remote", "Notification") extern class Notification extends js.node.events.EventEmitter<electron.remote.Notification> {
 	/**
 		Whether or not desktop notifications are supported on the current system
 	**/

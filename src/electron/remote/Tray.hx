@@ -66,7 +66,7 @@ package electron.remote;
 	* It is recommended to use `ICO` icons to get best visual effects.
 	@see https://electronjs.org/docs/api/tray
 **/
-@:jsRequire("electron", "remote.Tray") extern class Tray extends js.node.events.EventEmitter<electron.remote.Tray> {
+@:jsRequire("@electron/remote", "Tray") extern class Tray extends js.node.events.EventEmitter<electron.remote.Tray> {
 	function new(image:haxe.extern.EitherType<electron.NativeImage, String>, ?guid:String):Void;
 	/**
 		Destroys the tray icon immediately.

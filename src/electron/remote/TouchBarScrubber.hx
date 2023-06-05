@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main<br /> _This class is not exported from the `'electron'` module. It is only available as a return value of other methods in the Electron API._
 	@see https://electronjs.org/docs/api/touch-bar-scrubber
 **/
-@:jsRequire("electron", "remote.TouchBarScrubber") extern class TouchBarScrubber extends js.node.events.EventEmitter<electron.remote.TouchBarScrubber> {
+@:jsRequire("@electron/remote", "TouchBarScrubber") extern class TouchBarScrubber extends js.node.events.EventEmitter<electron.remote.TouchBarScrubber> {
 	/**
 		A `ScrubberItem[]` array representing the items in this scrubber. Updating this value immediately updates the control in the touch bar. Updating deep properties inside this array **does not update the touch bar**.
 	**/

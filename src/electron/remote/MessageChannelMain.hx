@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/message-channel-main
 **/
-@:jsRequire("electron", "remote.MessageChannelMain") extern class MessageChannelMain extends js.node.events.EventEmitter<electron.remote.MessageChannelMain> {
+@:jsRequire("@electron/remote", "MessageChannelMain") extern class MessageChannelMain extends js.node.events.EventEmitter<electron.remote.MessageChannelMain> {
 	/**
 		A `MessagePortMain` property.
 	**/

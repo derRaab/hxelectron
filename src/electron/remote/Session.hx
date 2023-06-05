@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/session
 **/
-@:jsRequire("electron", "remote.Session") extern class Session extends js.node.events.EventEmitter<electron.remote.Session> {
+@:jsRequire("@electron/remote", "Session") extern class Session extends js.node.events.EventEmitter<electron.remote.Session> {
 	/**
 		A `Session` object, the default session object of the app.
 	**/

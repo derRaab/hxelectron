@@ -113,7 +113,7 @@ package electron.remote;
 	It creates a new `BrowserWindow` with native properties as set by the `options`.
 	@see https://electronjs.org/docs/api/browser-window
 **/
-@:jsRequire("electron", "remote.BrowserWindow") extern class BrowserWindow extends js.node.events.EventEmitter<electron.remote.BrowserWindow> {
+@:jsRequire("@electron/remote", "BrowserWindow") extern class BrowserWindow extends js.node.events.EventEmitter<electron.remote.BrowserWindow> {
 	/**
 		An array of all opened browser windows.
 	**/

@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/service-workers
 **/
-@:jsRequire("electron", "remote.ServiceWorkers") extern class ServiceWorkers extends js.node.events.EventEmitter<electron.remote.ServiceWorkers> {
+@:jsRequire("@electron/remote", "ServiceWorkers") extern class ServiceWorkers extends js.node.events.EventEmitter<electron.remote.ServiceWorkers> {
 	/**
 		A ServiceWorkerInfo object where the keys are the service worker version ID and the values are the information about that service worker.
 	**/

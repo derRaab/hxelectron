@@ -7,7 +7,7 @@ package electron.remote;
 	`ClientRequest` implements the Writable Stream interface and is therefore an EventEmitter.
 	@see https://electronjs.org/docs/api/client-request
 **/
-@:jsRequire("electron", "remote.ClientRequest") extern class ClientRequest extends js.node.events.EventEmitter<electron.remote.ClientRequest> {
+@:jsRequire("@electron/remote", "ClientRequest") extern class ClientRequest extends js.node.events.EventEmitter<electron.remote.ClientRequest> {
 	/**
 		A `boolean` specifying whether the request will use HTTP chunked transfer encoding or not. Defaults to false. The property is readable and writable, however it can be set only before the first write operation as the HTTP headers are not yet put on the wire. Trying to set the `chunkedEncoding` property after the first write will throw an error.
 		

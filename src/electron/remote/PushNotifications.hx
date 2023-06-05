@@ -7,7 +7,7 @@ package electron.remote;
 	For example, when registering for push notifications via Apple push notification services (APNS):
 	@see https://electronjs.org/docs/api/push-notifications
 **/
-@:jsRequire("electron", "remote.pushNotifications") extern class PushNotifications extends js.node.events.EventEmitter<electron.remote.PushNotifications> {
+@:jsRequire("@electron/remote", "pushNotifications") extern class PushNotifications extends js.node.events.EventEmitter<electron.remote.PushNotifications> {
 	/**
 		Registers the app with Apple Push Notification service (APNS) to receive Badge, Sound, and Alert notifications. If registration is successful, the promise will be resolved with the APNS device token. Otherwise, the promise will be rejected with an error message. See: https://developer.apple.com/documentation/appkit/nsapplication/1428476-registerforremotenotificationtyp?language=objc
 	**/

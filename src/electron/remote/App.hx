@@ -7,7 +7,7 @@ package electron.remote;
 	The following example shows how to quit the application when the last window is closed:
 	@see https://electronjs.org/docs/api/app
 **/
-@:jsRequire("electron", "remote.app") extern class App extends js.node.events.EventEmitter<electron.remote.App> {
+@:jsRequire("@electron/remote", "app") extern class App extends js.node.events.EventEmitter<electron.remote.App> {
 	/**
 		A `boolean` property that's `true` if Chrome's accessibility support is enabled, `false` otherwise. This property will be `true` if the use of assistive technologies, such as screen readers, has been detected. Setting this property to `true` manually enables Chrome's accessibility support, allowing developers to expose accessibility switch to users in application settings.
 		

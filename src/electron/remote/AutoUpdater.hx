@@ -31,7 +31,7 @@ package electron.remote;
 	Like Squirrel.Mac, Windows can host updates on S3 or any other static file host. You can read the documents of Squirrel.Windows to get more details about how Squirrel.Windows works.
 	@see https://electronjs.org/docs/api/auto-updater
 **/
-@:jsRequire("electron", "remote.autoUpdater") extern class AutoUpdater extends js.node.events.EventEmitter<electron.remote.AutoUpdater> {
+@:jsRequire("@electron/remote", "autoUpdater") extern class AutoUpdater extends js.node.events.EventEmitter<electron.remote.AutoUpdater> {
 	/**
 		Sets the `url` and initialize the auto updater.
 	**/

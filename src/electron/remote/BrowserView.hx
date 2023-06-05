@@ -27,7 +27,7 @@ package electron.remote;
 	```
 	@see https://electronjs.org/docs/api/browser-view
 **/
-@:jsRequire("electron", "remote.BrowserView") extern class BrowserView extends js.node.events.EventEmitter<electron.remote.BrowserView> {
+@:jsRequire("@electron/remote", "BrowserView") extern class BrowserView extends js.node.events.EventEmitter<electron.remote.BrowserView> {
 	/**
 		A `WebContents` object owned by this view.
 	**/

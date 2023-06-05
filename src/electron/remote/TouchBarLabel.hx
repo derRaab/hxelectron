@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main<br /> _This class is not exported from the `'electron'` module. It is only available as a return value of other methods in the Electron API._
 	@see https://electronjs.org/docs/api/touch-bar-label
 **/
-@:jsRequire("electron", "remote.TouchBarLabel") extern class TouchBarLabel extends js.node.events.EventEmitter<electron.remote.TouchBarLabel> {
+@:jsRequire("@electron/remote", "TouchBarLabel") extern class TouchBarLabel extends js.node.events.EventEmitter<electron.remote.TouchBarLabel> {
 	/**
 		A `string` representing the label's current text. Changing this value immediately updates the label in the touch bar.
 	**/

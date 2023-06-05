@@ -7,7 +7,7 @@ package electron.remote;
 	See `Menu` for examples.
 	@see https://electronjs.org/docs/api/menu-item
 **/
-@:jsRequire("electron", "remote.MenuItem") extern class MenuItem extends js.node.events.EventEmitter<electron.remote.MenuItem> {
+@:jsRequire("@electron/remote", "MenuItem") extern class MenuItem extends js.node.events.EventEmitter<electron.remote.MenuItem> {
 	/**
 		A `string` indicating the item's unique id, this property can be dynamically changed.
 	**/

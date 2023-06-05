@@ -5,7 +5,7 @@ package electron.remote;
 	Process: Main
 	@see https://electronjs.org/docs/api/system-preferences
 **/
-@:jsRequire("electron", "remote.systemPreferences") extern class SystemPreferences extends js.node.events.EventEmitter<electron.remote.SystemPreferences> {
+@:jsRequire("@electron/remote", "systemPreferences") extern class SystemPreferences extends js.node.events.EventEmitter<electron.remote.SystemPreferences> {
 	/**
 		A `string` property that can be `dark`, `light` or `unknown`. It determines the macOS appearance setting for your application. This maps to values in: NSApplication.appearance. Setting this will override the system default as well as the value of `getEffectiveAppearance`.
 		

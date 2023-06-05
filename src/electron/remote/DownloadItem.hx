@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/download-item
 **/
-@:jsRequire("electron", "remote.DownloadItem") extern class DownloadItem extends js.node.events.EventEmitter<electron.remote.DownloadItem> {
+@:jsRequire("@electron/remote", "DownloadItem") extern class DownloadItem extends js.node.events.EventEmitter<electron.remote.DownloadItem> {
 	/**
 		A `string` property that determines the save file path of the download item.
 		

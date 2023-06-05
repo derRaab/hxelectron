@@ -2,7 +2,7 @@ package electron.remote;
 /**
 	@see https://electronjs.org/docs/api/message-port-main
 **/
-@:jsRequire("electron", "remote.MessagePortMain") extern class MessagePortMain extends js.node.events.EventEmitter<electron.remote.MessagePortMain> {
+@:jsRequire("@electron/remote", "MessagePortMain") extern class MessagePortMain extends js.node.events.EventEmitter<electron.remote.MessagePortMain> {
 	/**
 		Sends a message from the port, and optionally, transfers ownership of objects to other browsing contexts.
 	**/

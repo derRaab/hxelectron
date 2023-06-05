@@ -39,7 +39,7 @@ package electron.remote;
 	The `net` API can be used only after the application emits the `ready` event. Trying to use the module before the `ready` event will throw an error.
 	@see https://electronjs.org/docs/api/net
 **/
-@:jsRequire("electron", "remote.net") extern class Net extends js.node.events.EventEmitter<electron.remote.Net> {
+@:jsRequire("@electron/remote", "net") extern class Net extends js.node.events.EventEmitter<electron.remote.Net> {
 	/**
 		A `boolean` property. Whether there is currently internet connection.
 		

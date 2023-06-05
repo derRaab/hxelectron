@@ -9,7 +9,7 @@ package electron.remote;
 	Process: Main
 	@see https://electronjs.org/docs/api/menu
 **/
-@:jsRequire("electron", "remote.Menu") extern class Menu extends js.node.events.EventEmitter<electron.remote.Menu> {
+@:jsRequire("@electron/remote", "Menu") extern class Menu extends js.node.events.EventEmitter<electron.remote.Menu> {
 	/**
 		Sets `menu` as the application menu on macOS. On Windows and Linux, the `menu` will be set as each window's top menu.
 		
